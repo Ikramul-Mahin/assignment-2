@@ -1,4 +1,92 @@
+/* base */
 body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 1rem 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+
+
+
+/* header  */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 0 1rem;
+    padding-top: 2rem;
+}
+
+.header-text {
+    width: 50%;
+}
+
+.header-des {
+    font-size: .9rem;
+    padding: 5px 0;
+}
+
+.header-btn {
+    background-color: #DD0000;
+    color: white;
+    font-weight: 500;
+    padding: .7rem 1.6rem;
+    border-radius: 5px;
+}
+
+.header-btn i {
+    margin-left: 5px;
+}
+
+.header-btn:hover {
+    background-color: white;
+    color: #DD0000;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+/* end header */
+
+/* start main */
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.match-menu {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.match-menu button {
+    display: block;
+    margin: 9px 0;
+    border: none;
+}
+
+.transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+.player {
+    width: 20%;
+    margin-left: 2rem;
+}
+
+.player img {
+    width: 400%;
 }

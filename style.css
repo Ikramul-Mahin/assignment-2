@@ -10,6 +10,9 @@ h1 {
     font-size: 2rem;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 
@@ -207,6 +210,17 @@ hr {
 
 .faq a:hover {
     text-decoration: underline;
+}
+
+.icon {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.icon i {
+    color: white;
+    padding: 0 .6rem;
+
 }
 
 /*end  footer */
